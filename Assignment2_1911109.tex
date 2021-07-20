@@ -1,0 +1,53 @@
+\documentclass[10pt,a4paper,twoside]{article}
+\usepackage[dutch]{babel}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{float,flafter}	
+\usepackage{hyperref}
+\usepackage{inputenc}
+\setlength\paperwidth{20.999cm}\setlength\paperheight{29.699cm}\setlength\voffset{-1in}\setlength\hoffset{-1in}\setlength\topmargin{1cm}\setlength\headheight{12pt}\setlength\headsep{0cm}\setlength\footskip{1.131cm}\setlength\textheight{25cm}\setlength\oddsidemargin{2.499cm}\setlength\textwidth{15.999cm}
+\begin{document}
+\begin{center}
+\hrule
+
+\vspace{.3cm}
+{\bf {\Large Assignment 2 }}\\
+{\bf {\huge Gödel's incompleteness theorems}}
+\vspace{.2cm}
+\end{center}
+{\bf Name:}  Ankit kumar jhariya\\
+{\bf Roll no:}  19111009 \\
+{\bf Branch: }  Biomedical Engineering \hspace{\fill}  19 July, 2021 \\
+\hrule
+
+\vspace{.4cm}
+{\textbf{\large A one page summary on "Gödel's incompleteness theorems".}} \\
+
+Gödel's incompleteness theorems are two theorems of mathematical logic that are concerned with the limits of provability in formal axiomatic theories. Employing a diagonal argument, Gödel's incompleteness theorems were the first of several closely related theorems on the limitations of formal systems.
+
+\subparagraph{Formal systems}
+A formal system is a deductive apparatus that consists of a particular set of axioms with rules of symbolic manipulation that allow for the derivation of new theorems from the axioms. \\
+The incompleteness theorems apply to those formal system having properties including completeness (syntactically, or negation), consistency (statement and its negation are provable), and the existence of an effective axiomatization (recursively enumerable set of axioms). It is not even possible for an infinite list of axioms to be complete, consistent, and effectively axiomatized.
+
+\section{First incompleteness theorem}
+The first incompleteness theorem states that no consistent system of axioms whose theorems can be listed by an algorithm is capable of proving all truths about the arithmetic of natural numbers. For any such consistent formal system, there will always be statements about natural numbers that are true, but that are unprovable within the system.\\
+A stronger version of the incompleteness theorem that only assumes consistency, rather than omega-consistency, is now commonly known as Gödel's incompleteness theorem and as the Gödel–Rosser theorem.
+
+\subparagraph{Proof sketch for first theorem}
+\begin{itemize}
+\item Proof is by contradiction having three essential parts namely Arithmetization of syntax, Construction of a statement about "provability", Diagonalization
+\item The Proof via Berry's paradox
+\item Computer verified proofs
+\end{itemize}
+\section{Second Incompleteness Theorem}
+The Gödel's second incompleteness theorem, an extension of the first, shows that the system cannot demonstrate its own consistency. It also implies that a system F1 satisfying the technical conditions outlined above cannot prove the consistency of any system F2 that proves the consistency of F1. This is because such a system F1 can prove that if F2 proves the consistency of F1, then F1 is in fact consistent.\\
+Employing a diagonal argument, Gödel's incompleteness theorems were the first of several closely related theorems on the limitations of formal systems.
+
+\subparagraph{Expressing consistency}
+A set of axioms is (syntactically, or negation-) complete if, for any statement in the axioms' language, that statement or its negation is provable from the axioms (Smith 2007, p.  24). This is the notion relevant for Gödel's first Incompleteness theorem.
+There are many ways to express the consistency of a system, and not all of them lead to the same result. The standard proof of the second incompleteness theorem assumes that the provability predicate ProvA(P) satisfies the Hilbert–Bernays provability conditions.
+
+\subparagraph{Proof sketch for the second theorem}
+The proof for the second incompleteness theorem is by assumption and contradiction by showing that various facts about provability used in the proof of the first incompleteness theorem can be formalized within the system using a formal predicate for provability.
+
+\end{document}
